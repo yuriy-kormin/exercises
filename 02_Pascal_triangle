@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 def triangle(num):
     '''
         This function return line of Pascal's triangle
@@ -20,3 +23,11 @@ def triangle(num):
             count += 1
             pre_line = line[:]
     return line
+
+
+def main():
+    print (hamming_weight(7))
+
+
+if __name__=="__main__":
+    main() 

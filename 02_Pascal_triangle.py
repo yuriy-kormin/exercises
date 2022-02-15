@@ -26,7 +26,7 @@ def triangle(num):
 
 
 def main():
-    print (hamming_weight(7))
+    print (triangle(7))
 
 
 if __name__=="__main__":
